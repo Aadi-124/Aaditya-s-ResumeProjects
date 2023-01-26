@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+body
+{
+    margin:0cm;
+    padding: 0cm;
+    background-color:black;
+    color:white;
+}
+
+
+
+
+
+/* Navigation Bar:- */
+
+nav
+{
+    display:flex;
+    color:rgb(255, 255, 255);
+    height:2cm;
+    align-items: center;
+    justify-content:space-between
+}
+
+.midcontent
+{
+    list-style: none;
+    display:flex;
+    height:2cm;
+    align-items: center;
+    justify-content: space-around;
+    width:17cm;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:6mm;
+    font-weight: bolder;
+}
+
+.midcontent li
+{
+    cursor: pointer;
+
+    height:17mm;
+    border-radius: 6mm;
+    color:grey;
+    width:3cm;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.midcontent li:hover
+{
+    color:white;
+}
+
+.midcontent li:active
+{
+    color:white;
+}
+
+
+.nav_content
+{
+    margin:2mm;
+    display: flex;
+}
+
+#left
+{
+    justify-content: center;
+    align-items: center;
+}
+
+
+#logo
+{
+    height:9mm;
+    width:9mm;
+    margin:1mm;
+}
+
+#logoname
+{
+    font-family: 'Oswald', sans-serif;
+    font-size:8mm;
+}
+
+#right
+{
+    align-items:center;
+    height: 2cm;
+}
+
+#caste
+{
+    height:5mm;
+    width:11mm;
+    margin:3mm;
+    cursor: pointer;
+}
+
+#account
+{
+    height:9mm;
+    width:9mm;
+    margin:3mm;
+    font-weight: 100;
+    background-color: rgb(232, 8, 86);
+    border-radius: 4cm;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size :3mm;
+}
+
+
+/* ============================================================================================================================================== */
+
+
+/* Bottom Navigation Bar:- */
+
+
+#bottomnav
+{
+    position:fixed;
+    width:100%;
+    bottom:0px;
+    height:2cm;
+    background-color:rgb(57, 57, 57);
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+#leftbottomnav
+{
+
+    height:2.5cm;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width:20%;
+}
+#leftbottomnav span
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color:rgb(153, 153, 153);
+}
+.leftbottomnavcontent
+{
+    cursor: pointer;
+}
+
+
+#midbottomnav
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:2cm;
+    width:30%;
+}
+
+
+#songpic
+{
+    height: 1.3cm;
+    width:1.3cm;
+    display:inline;
+    margin:2mm;
+    cursor: pointer;
+}
+
+#song
+{
+    height: 1.5cm;
+    width:50%;
+    font-size:4mm;
+    font-weight:bolder;
+}
+
+#playingsong span
+{
+    font-size:5mm;
+    font-weight: bolder;
+    margin:1cm;
+}
+#playingsong
+{
+    display:flex;
+    align-items: center;
+}
+
+
+.likedislike
+{
+    height:7mm;
+    width:7mm;
+    margin:3mm;
+
+}
+
+
+.more
+{
+    height:5mm;
+    width:5mm;
+    margin:4mm;
+ 
+}
+
+.midbottomnavcontent
+{
+    border-radius: 2cm;
+    cursor: pointer;
+}
+
+.midbottomnavcontent:hover
+{
+    background-color:rgb(75, 75, 75);
+}
+
+
+.rightbottomnavcontent img
+{
+    width:6mm;
+    height:6mm;
+}
+
+.rightbottomnavcontent
+{
+    margin:2mm;
+    cursor: pointer;
+}
+
+
+#rightbottomnav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:10cm;
+    margin:4mm;
+}
+
+
+#triangle img
+{
+    width: 4mm;
+    height: 4mm;
+}
+
+
+
+
+/* ============================================================================================================================================== */
+
+
+/* Middle Container */
+
+
+
+.containercontent
+{
+    width:10cm;
+    height:10cm;
+}
+
+.containercontent img
+{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+#leftcontainer
+{
+    height:16cm;
+    width:16cm;
+    margin: 1cm 1cm;
+}
+
+.rightcontainers::-webkit-scrollbar {
+    width: 100px;
+}
+
+
+#rightcontainer
+{
+    height: 17cm;
+    width:15cm;
+    margin-top: 8mm;
+    overflow: auto;
+    position: relative;
+}
+
+.container{
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height:80vh;
+}
+
+
+#tabs
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 1.3cm;
+    position: fixed;
+    width:14.5cm;
+}
+
+#tabs button
+{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    font-size: 5mm;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+#tabs button:hover
+{
+    background-color: rgb(57, 57, 57);
+}
+
+#categories
+{
+    height: 1.8cm;
+    overflow: auto;
+    white-space: nowrap;
+    margin-top: 1.5cm;
+}
+
+
+#categories span
+{
+    display: inline-block;
+    border:2px solid rgb(74, 74, 74);
+    background-color: rgb(23, 23, 23);
+    font-size: 4mm;
+    font-weight: bolder;
+    margin:1mm;
+    padding:2mm;
+    border-radius: 2cm;
+    cursor: pointer;
+}
+
+#songlist
+{
+    display: flex;
+    flex-flow: column;
+    margin-top: 3mm;
+}
+
+#songimg
+{
+    height:1.2cm;
+    width:1.2cm;
+}
+
+
+#songprogress
+{
+    position:absolute;
+    z-index: 1;
+     width:100%;
+    bottom:1.7cm;
+}
+
+
+
+.song
+{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    width:100%;
+    border:1px solid rgb(108, 106, 106);
+    border-left: none;
+    border-right: none;
+    padding:2mm;
+}
+
+.song img
+{
+    height:1.2cm;
+    width:1.2cm;
+}
+
+.songname
+{
+    font-weight: bolder;
+}
+
+
+.songItem
+{
+    cursor: pointer;
+}
+

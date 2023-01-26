@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/Style.css">
+   
+    <title>You Tube Music</title>
+</head>
+<body>
+    
+    <nav>
+        
+        <div class="nav_content" id="left">
+            <img src="/Images/logo.png" id="logo">
+            <span id="logoname">Music</span>
+        </div>
+
+
+        <div class="nav_content" class="mid">
+            <ul class="midcontent">
+                <li>Home</li>
+                <li>Explore</li>
+                <li>Library</li>
+                <li>Upgrade</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>&nbsp;&nbsp;&nbsp; Search</li>
+            </ul>
+        </div>
+
+        <div class="nav_content" id="right">
+            <img src="/Images/casteicon.svg" id="caste">
+            <div id="account">
+                <h1>A</h1>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+
+
+    <div class="container">
+        
+        <div id="leftcontainer" class="containercontent">
+            <img id="mainpic" src="/Images/songimg.jpg" alt="song's image">
+        </div>
+
+
+
+        <div id="rightcontainer" class="containercontent" >
+
+
+            <div class="rightcontainercontent" id="tabs">
+                    <button>Up Next</button>
+                    <button>Lyrics</button>
+                    <button>Related</button>
+            </div>
+
+
+
+            <div class="rightcontainercontent" id="categories">
+                <span>All</span>
+                <span>Faimilier</span>
+                <span>Discover</span>
+                <span>Popular</span>
+                <span>Deep Cuts</span>
+                <span>Up Beats</span>
+                <span>Hindi</span>
+                <span>2010's</span>
+                <span>2020's</span>
+            </div>
+
+
+
+            <div class="rightcontainercontent" id="songlist">
+
+
+
+                <div class="song">
+                <img class="songItem" id="0" alt="songpic">
+                <span class="songname">Tota Jo Kabhi Tara</span>
+                <span>4:35</span>
+                </div>
+
+                <div class="song">
+                <img class="songItem" id="1" alt="songpic">
+                <span class="songname">Tota Jo Kabhi Tara</span>
+                <span>4:35</span>
+                </div>
+
+                <div class="song">
+                <img class="songItem" id="2" alt="songpic">
+                <span class="songname">Tota Jo Kabhi Tara</span>
+                <span>4:35</span>
+                </div>
+
+                <div class="song">
+                <img class="songItem" id="3" alt="songpic">
+                <span class="songname">Tota Jo Kabhi Tara</span>
+                <span>4:35</span>
+                </div>
+
+                <div class="song">
+                <img class="songItem" id="4" alt="songpic">
+                <span class="songname">Tota Jo Kabhi Tara</span>
+                <span>4:35</span>
+                </div>
+
+               
+
+            </div>
+
+
+        </div>
+
+        <input type="range" id="songprogress" min="0" max="100" value="0"/>
+    </div>
+
+
+
+
+
+
+
+
+<nav id="bottomnav">
+
+
+    <div class="bottomnavcontent" id="leftbottomnav">
+
+        <img class="leftbottomnavcontent" id="backward" src="/Images/backwardbtn.svg" alt="backward">
+        <img class="leftbottomnavcontent" id="playpause" src="/Images/playbtn.svg" alt="play/pause">
+        <img class="leftbottomnavcontent" id="forward" src="/Images/forwardbtn.svg" alt="forward">
+        <span id="songtime">
+
+        </span>
+
+    </div>
+
+
+
+
+
+    <div class="bottomnavcontent" id="midbottomnav">
+      
+
+        <div id="playingsong">
+            <img id="songpic" src="/Images/music.jpg" alt="song">
+            <span id="songtitle">Tota Jo Kabhi Tara</span>
+        </div>
+
+        
+
+
+        <div class="midbottomnavcontent">
+            <img class="likedislike"  id="dislike"  src="/Images/transperentdislike.svg" alt="dislike" srcset="">
+        </div>
+
+
+
+        <div class="midbottomnavcontent" >
+            <img class="likedislike" id = "like" src="/Images/transperentlike.svg" alt="like">
+        </div>
+
+
+        <div class="midbottomnavcontent" id="more" >
+            <img class="likedislike" id="more" src="/Images/more.svg" alt="more">
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="bottomnavcontent" id="rightbottomnav">
+
+
+        <div class="rightbottomnavcontent">
+            <input type="range" min="0" max="100" id="volume" value="30">
+        </div>
+
+
+        <div class="rightbottomnavcontent">
+            <img src="/Images/unmute.svg" id="muteunmute" alt="mute">
+        </div>
+        
+        
+        <div class="rightbottomnavcontent">
+            <img src="/Images/repeate.svg" alt="repeate">
+        </div>
+        
+        
+        <div class="rightbottomnavcontent">
+            <img src="/Images/shuffle.svg" alt="shuffle">
+        </div>
+        
+        
+        <div class="rightbottomnavcontent" id="triangle">
+            <img src="/Images/triangle.svg" alt="listdown">
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+</nav>
+   <script src="/JavaScript/Play_songs.js"></script>
+</body>
+</html>
