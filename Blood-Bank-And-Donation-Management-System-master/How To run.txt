@@ -1,0 +1,8 @@
+Steps:-
+1  -->  Install xampp server
+2  --> paste this folder in the following location:-
+	C:\xampp\htdocs
+3  --> start the mysql and apache server from xampp software
+4 --> import the database file (present in sql folder) in your database.
+5 --> enter the following url in browser's search bar and hit enter:-
+	http://localhost/Blood-Bank-And-Donation-Management-System-master/home.php
